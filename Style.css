@@ -300,7 +300,7 @@ header{
     border-radius: 50%;
 }
 .product{
-    height: 60vh;
+    max-height: 60vh;
     width: 80%;
     overflow: scroll;
     scrollbar-width: none;
@@ -309,7 +309,7 @@ header{
     margin: auto;
 }
 .product1{
-    height: 30vh;
+    max-height: 30vh;
     /* border: 1px solid black; */
     display: flex;
     /* justify-content: center; */
@@ -320,201 +320,38 @@ header{
     height: 28vh;
     width: 12vw;
 }
-.dessert{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.dessert img{
+.product2{
     height: 28vh;
     width: 12vw;
 }
-.biriyani{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
+.product2 img{
+    max-height: 28vh;
+    max-width: 12vw;
 }
-.biriyani img{
-    height: 28vh;
-    width: 12vw;
-}
-.Chisnis{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.Chisnis img{
-    height: 28vh;
-    width: 12vw;
-}
-.Rolls{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.Rolls img{
-    height: 28vh;
-    width: 12vw;
-}
-.cake{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.cake img{
-    height: 28vh;
-    width: 12vw;
-}
-.pizza{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.pizza img{
-    height: 28vh;
-    width: 12vw;
-}
-.north_indian{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.north_indian img{
-    height: 28vh;
-    width: 12vw;
-}
-.south_indian{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.south_indian img{
-    height: 28vh;
-    width: 12vw;
-}
-.burger{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.burger img{
-    height: 28vh;
-    width: 12vw;
-}
-.shawarma{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.shawarma img{
-    height: 28vh;
-    width: 12vw;
-}
+
 
 
 
 /******* product1 ******/
-.product2{
-    height: 30vh;
+.product3{
+    max-height: 30vh;
     /* border: 1px solid black; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
     gap: 10px;
 }
-.product2 a{
-    height: 28vh;
-    width: 12vw;
+.product3 a{
+    max-height: 28vh;
+    max-width: 12vw;
 }
-.Ice_Cream{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
+.product4{
+    max-height: 28vh;
+    max-width: 12vw;
 }
-.Ice_Cream img{
-    height: 28vh;
-    width: 12vw;
-}
-.momo{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.momo img{
-    height: 28vh;
-    width: 12vw;
-}
-.pasta{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.pasta img{
-    height: 28vh;
-    width: 12vw;
-}
-.paratha{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.paratha img{
-    height: 28vh;
-    width: 12vw;
-}
-.dosa{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.dosa img{
-    height: 28vh;
-    width: 12vw;
-}
-.salad{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.salad img{
-    height: 28vh;
-    width: 12vw;
-}
-.kachdi{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.kachdi img{
-    height: 28vh;
-    width: 12vw;
-}
-.vada{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.vada img{
-    height: 28vh;
-    width: 12vw;
-}
-.idli{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.idli img{
-    height: 28vh;
-    width: 12vw;
-}
-.rasgulla{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.rasgulla img{
-    height: 28vh;
-    width: 12vw;
+.product4 img{
+    max-height: 28vh;
+    max-width: 12vw;
 }
 
 /****** project finish *******/
@@ -549,253 +386,81 @@ header{
     border-radius: 50%;
 }
 .parent_instamart{
-    height: 30vh;
+    height: 40vh;
     max-width: 100%;
     background-color: #fff;
     display: flex;
-    justify-content: center;
+    
+    /* border: 1px solid black; */
 }
 .instamart{
-    height: 30vh;
-    max-width: 80%;
+    height: 40vh;
+    width: 80%;
     overflow: scroll;
     scrollbar-width: none;
      /* Firefox-ms-overflow-style: none; */
-     background-color: #fff;
+     /* background-color: #9e2525; */
+     /* border: 1px solid black; */
+     overflow-y: hidden;
+     margin: auto;
 }
 .instamart_1{
-    height: 30vh;
+    height: 40vh;
     /* border: 1px solid black; */
     display: flex;
     
-    align-items: center;
-    gap: 10px;
+    /* align-items: center; */
+    gap: 3vw;
 }
 .instamart_1 a{
     height: 30vh;
     width: 12vw;
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
-.fresh_vegetables{
+
+.instamart2{
     height: 28vh;
     width: 12vw;
     /* border: 1px solid black; */
+}
+.instamart2 img{
+    height: 28vh;
+    width: 12vw;
+}
+.instamart3{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+    /* margin-left: 30px;    */
+}
+.instamart4{
+    height: 28vh;
+    width: 12vw;
     
 }
-.fresh_vegetables img{
+.instamart4 img{
     height: 28vh;
     width: 12vw;
 }
-.fresh_fruits{
-    height: 28vh;
+.instamart5{
+    height: 10vh;
     width: 12vw;
+    display: flex;
+
+    /* border: 1px solid rgb(249, 52, 52); */
+}
+.instamart6{
+    height: 10vh;
+    width: 10vw;
     /* border: 1px solid black; */
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+    font-family: Gilroy;
+    color: rgba(2, 6, 12, 0.75);
+
 }
-.fresh_fruits img{
-    height: 28vh;
-    width: 12vw;
-}
-.dairy_bread_and_eggs{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.dairy_bread_and_eggs img{
-    height: 28vh;
-    width: 12vw;
-}
-.rice_atta_and_dals{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.rice_atta_and_dals img{
-    height: 28vh;
-    width: 12vw;
-}
-.masalas_and_dry_fruits{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.masalas_and_dry_fruits img{
-    height: 28vh;
-    width: 12vw;
-}
-.oils_and_ghee{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.oils_and_ghee img{
-    height: 28vh;
-    width: 12vw;
-}
-.munchies{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.munchies img{
-    height: 28vh;
-    width: 12vw;
-}
-.sweet_tooth{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.sweet_tooth img{
-    height: 28vh;
-    width: 12vw;
-}
-.cold_drinks_and_juices{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.cold_drinks_and_juices img{
-    height: 28vh;
-    width: 12vw;
-}
-.biscuits_and_cakes{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.biscuits_and_cakes img{
-    height: 28vh;
-    width: 12vw;
-}
-.instant_and_frozen_food{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.instant_and_frozen_food img{
-    height: 28vh;
-    width: 12vw;
-}
-.meat_and_seafood{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.meat_and_seafood img{
-    height: 28vh;
-    width: 12vw;
-}
-.cereals_and_breakfast{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.cereals_and_breakfast img{
-    height: 28vh;
-    width: 12vw;
-}
-.sauces_and_spreads{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.sauces_and_spreads img{
-    height: 28vh;
-    width: 12vw;
-}
-.tea_coffee_and_more{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.tea_coffee_and_more img{
-    height: 28vh;
-    width: 12vw;
-}
-.cleaning_essentials{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.cleaning_essentials img{
-    height: 28vh;
-    width: 12vw;
-}
-.pharma_and_hygiene{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.pharma_and_hygiene img{
-    height: 28vh;
-    width: 12vw;
-}
-.bath_body_and_hair{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.bath_body_and_hair img{
-    height: 28vh;
-    width: 12vw;
-}
-.paan_corner{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.paan_corner img{
-    height: 28vh;
-    width: 12vw;
-}
-.home_and_kitchen{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.home_and_kitchen img{
-    height: 28vh;
-    width: 12vw;
-}
-.office_and_electricals{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.office_and_electricals img{
-    height: 28vh;
-    width: 12vw;
-}
-.baby_care{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.baby_care img{
-    height: 28vh;
-    width: 12vw;
-}
-.pet_supplies{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.pet_supplies img{
-    height: 28vh;
-    width: 12vw;
-}
-.beauty_and_grooming{
-    height: 28vh;
-    width: 12vw;
-    /* border: 1px solid black; */
-}
-.beauty_and_grooming img{
-    height: 28vh;
-    width: 12vw;
-}
+
 
 /****** discover start *********/
 
