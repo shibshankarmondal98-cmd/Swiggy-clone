@@ -61,7 +61,7 @@
     cursor: pointer;
    
 }
-.slide{ border: 2px solid red;
+.slide{
     width: 120%;
     height: 80vh;
     display: flex;
@@ -71,7 +71,7 @@
      /* position: relative; */
 
 }
-.slide1, .slide2, .slide3{border: 2px solid red;
+.slide1, .slide2, .slide3{
     width: 40%;
     height: 400px;
     display: flex;
@@ -86,7 +86,29 @@
     opacity: 0.1;
 }
 
-
-
+.con1{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+}
+.btn1{ border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+.btn1 button{
+    width: 150px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color:#FC8019;
+    color: rgb(0, 0, 0);
+    font-size: 1.12em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn1 input{
+    width: 40vw;
+}
 
 
