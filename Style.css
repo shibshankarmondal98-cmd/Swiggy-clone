@@ -580,7 +580,6 @@ header {
     width: 100%;
     overflow: scroll;
     scrollbar-width: none;
-    Firefox-ms-overflow-style: none;
     background-color: #fff;
     overflow-y: hidden;
     margin: auto;
@@ -1113,10 +1112,10 @@ header {
     grid-template-rows: repeat(1, 1fr);
 }
 
-.footer_part1 {
-    /* background-color: aqua; */
+/* .footer_part1 {
+    background-color: aqua;
 
-}
+} */
 
 .footer_part_logo {
     height: 10vh;
